@@ -1,4 +1,4 @@
- app/code/BDC/ContactPreferences/# BDC_ContactPreferences
+# BDC_ContactPreferences
 
 This module is used as Customer Contact Preferences for all BDCrops Magento 2 extensions.
 
