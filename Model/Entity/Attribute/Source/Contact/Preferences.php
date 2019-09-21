@@ -7,6 +7,7 @@ class Preferences extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSou
     const VALUE_PHONE = 'phone';
     const VALUE_POST = 'post';
     const VALUE_SMS = 'sms';
+    const VALUE_TELEGRAM = 'telegram';
 
     public function getAllOptions() {
         return [
@@ -14,6 +15,7 @@ class Preferences extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSou
             ['label' => __('Phone'), 'value' => self::VALUE_PHONE],
             ['label' => __('Post'), 'value' => self::VALUE_POST],
             ['label' => __('SMS'), 'value' => self::VALUE_SMS],
+            ['label' => __('Telegram'), 'value' => self::VALUE_TELEGRAM],
         ];
     }
 }

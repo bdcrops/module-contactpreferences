@@ -1,6 +1,6 @@
-# BDC_ContactPreferences
+# Magento 2x ContactPreferences
 
-This module is used as Customer Contact Preferences for all BDCrops Magento 2 extensions.
+This module is used as Customer Contact Preferences for all BDCrops Magento 2 extensions.understand the mechanism behind the customerData object and the section load, let's put it to use by creating a small module that adds contact preferences functionality under the customer's My Account area, as well as under the checkout.
 
 ## Goal
 - Adding contact preferences to customer accounts
