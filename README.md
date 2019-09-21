@@ -55,22 +55,68 @@ php bin/magento setup:di:compile
 ## 2.  BDC_ContactPreferences
 
 - create app/code/BDC/ContactPreferences/etc/module.xml
+```
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="BDC_ContactPreferences" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Checkout"/>
+        </sequence>
+    </module>
+</config>
+```
 - create app/code/BDC/ContactPreferences/registration.php
-- create app/code/BDC/ContactPreferences/etc/frontend/routes.xml
-- create app/code/BDC/ContactPreferences/Controller/Contact/Preferences.php
-- create app/code/BDC/ContactPreferences/Model/Entity/Attribute/Source/Contact/Preferences.php
-- create app/code/BDC/ContactPreferences/Setup/InstallData.php  
-- create app/code/BDC/ContactPreferences/etc/frontend/di.xml
-- create app/code/BDC/ContactPreferences/CustomerData/Preferences.php
-- create app/code/BDC/ContactPreferences/etc/frontend/sections.xml
-- create app/code/BDC/ContactPreferences/view/frontend/layout/checkout_index_index.xml
-- create app/code/BDC/ContactPreferences/view/frontend/layout/customer_account.xml
-- create app/code/BDC/ContactPreferences/view/frontend/layout/customer_contact_preferences.xml
-- create app/code/BDC/ContactPreferences/view/frontend/templates/customer/contact/preferences.phtml
-- create app/code/BDC/ContactPreferences/view/frontend/requirejs-config.js
-- create app/code/BDC/ContactPreferences/view/frontend/web/js/view/contact-preferences.js
-- create app/code/BDC/ContactPreferences/view/frontend/web/template/contact-preferences.html
+```
+<?php
 
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'BDC_ContactPreferences',
+    __DIR__
+);
+```
+- create app/code/BDC/ContactPreferences/etc/frontend/routes.xml
+```
+```
+- create app/code/BDC/ContactPreferences/Controller/Contact/Preferences.php
+```
+```
+- create app/code/BDC/ContactPreferences/Model/Entity/Attribute/Source/Contact/Preferences.php
+```
+```
+- create app/code/BDC/ContactPreferences/Setup/InstallData.php  
+```
+```
+- create app/code/BDC/ContactPreferences/etc/frontend/di.xml
+```
+```
+- create app/code/BDC/ContactPreferences/CustomerData/Preferences.php
+```
+```
+- create app/code/BDC/ContactPreferences/etc/frontend/sections.xml
+```
+```
+- create app/code/BDC/ContactPreferences/view/frontend/layout/checkout_index_index.xml
+```
+```
+- create app/code/BDC/ContactPreferences/view/frontend/layout/customer_account.xml
+```
+```
+- create app/code/BDC/ContactPreferences/view/frontend/layout/customer_contact_preferences.xml
+```
+```
+- create app/code/BDC/ContactPreferences/view/frontend/templates/customer/contact/preferences.phtml
+```
+```
+- create app/code/BDC/ContactPreferences/view/frontend/requirejs-config.js
+```
+ ```
+- create app/code/BDC/ContactPreferences/view/frontend/web/js/view/contact-preferences.js
+```
+```
+- create app/code/BDC/ContactPreferences/view/frontend/web/template/contact-preferences.html
+```
+```
 - Result
 ![](docs/ContactPrefAdmin.png)
 ![](docs/ContactPrefCuAcc.png)
