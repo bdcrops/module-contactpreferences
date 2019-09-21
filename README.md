@@ -1,4 +1,4 @@
-# BDC_ContactPreferences
+ app/code/BDC/ContactPreferences/# BDC_ContactPreferences
 
 This module is used as Customer Contact Preferences for all BDCrops Magento 2 extensions.
 
@@ -50,6 +50,24 @@ php bin/magento setup:di:compile
 
 ## 2.  BDC_ContactPreferences
 
+- create app/code/BDC/ContactPreferences/etc/module.xml
+- create app/code/BDC/ContactPreferences/registration.php
+- create app/code/BDC/ContactPreferences/etc/frontend/routes.xml
+- create app/code/BDC/ContactPreferences/Controller/Contact/Preferences.php
+- create app/code/BDC/ContactPreferences/Model/Entity/Attribute/Source/Contact/Preferences.php
+- create app/code/BDC/ContactPreferences/Setup/InstallData.php  
+- create app/code/BDC/ContactPreferences/etc/frontend/di.xml
+- create app/code/BDC/ContactPreferences/CustomerData/Preferences.php
+- create app/code/BDC/ContactPreferences/etc/frontend/sections.xml
+- create app/code/BDC/ContactPreferences/view/frontend/layout/checkout_index_index.xml
+- create app/code/BDC/ContactPreferences/view/frontend/layout/customer_account.xml
+- create app/code/BDC/ContactPreferences/view/frontend/layout/customer_contact_preferences.xml
+- create app/code/BDC/ContactPreferences/view/frontend/templates/customer/contact/preferences.phtml
+- create app/code/BDC/ContactPreferences/view/frontend/requirejs-config.js
+- create app/code/BDC/ContactPreferences/view/frontend/web/js/view/contact-preferences.js
+- create app/code/BDC/ContactPreferences/view/frontend/web/template/contact-preferences.html
+
+- Result
 ![](docs/ContactPrefAdmin.png)
 ![](docs/ContactPrefCuAcc.png)
 ![](docs/db.png)
