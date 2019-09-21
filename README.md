@@ -2,6 +2,10 @@
 
 This module is used as Customer Contact Preferences for all BDCrops Magento 2 extensions.
 
+## Goal
+- Adding contact preferences to customer accounts
+- Customer-related functionality is central to Magento
+
 
 
 ## 1. How to install & upgrade ContactPreferences
