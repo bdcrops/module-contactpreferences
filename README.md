@@ -4,7 +4,7 @@ This module is used as Customer Contact Preferences for all BDCrops Magento 2 ex
 
 
 
-## How to install & upgrade BDC_ContactPreferences
+## 1. How to install & upgrade ContactPreferences
 
 
 ### 1.1 Copy and paste
