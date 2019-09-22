@@ -341,6 +341,8 @@ class Preferences extends \Magento\Framework\DataObject implements \Magento\Cust
 </page>
 
 ```
+![](docs/checkout.png)
+
 - create app/code/BDC/ContactPreferences/view/frontend/layout/customer_account.xml
 ```
 <?xml version="1.0"?>
@@ -360,6 +362,7 @@ class Preferences extends \Magento\Framework\DataObject implements \Magento\Cust
 </page>
 
 ```
+![](docs/ContactPrefCuAcc.png)
 - create app/code/BDC/ContactPreferences/view/frontend/layout/customer_contact_preferences.xml
 ```
 <?xml version="1.0"?>
