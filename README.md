@@ -2,6 +2,8 @@
 
 This module is used as Customer Contact Preferences for all BDCrops Magento 2 extensions.understand the mechanism behind the customerData object and the section load, let's put it to use by creating a small module that adds contact preferences functionality under the customer's My Account area, as well as under the checkout.
 
+Built a small module that allowed us to get a greater insight into Magento's customerData and sections mechanisms. We managed to build a single component, that got used both on the customer's My Account page, as well as on the checkout.
+
 ## Goal
 - Adding contact preferences to customer accounts
 - Manage CustomerData Entity in Magento 2
