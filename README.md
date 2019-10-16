@@ -9,13 +9,14 @@ Built a small module that allowed us to get a greater insight into Magento's cus
 - Manage CustomerData Entity in Magento 2
 - use Section.xml file in Magento 2
 - Customizing the Checkout Process
+- Learn Magento 2 Certified Professional Developer exam topics "Customizing the Checkout Process 13%"
 
 
 
 ## 1. How to install & upgrade ContactPreferences
 
 
-### 1.1 Copy and paste
+#### 1.1 Copy and paste
 
 If you don't want to install via composer, you can use this way.
 
@@ -29,7 +30,7 @@ php bin/magento setup:static-content:deploy
 ```
 
 
-### 1.2 Install via composer
+#### 1.2 Install via composer
 
 We recommend you to install BDC_ContactPreferences module via composer. It is easy to install, update and maintaince.Run the following command in Magento 2 root folder.
 
